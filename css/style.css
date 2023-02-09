@@ -1,0 +1,395 @@
+
+/*font link-----  
+	font-family: 'Lato', sans-serif;    
+ 	font-family: 'Dosis', sans-serif; */
+
+/*font awesome icon  <i class="fab fa-twitter"></i>,    <i class="fas fa-user"></i>,<i class="fas fa-search"></i>, <i class="fas fa-long-arrow-alt-down"></i>*/
+
+body{
+	background-image: url(../image/bg.png);
+}
+/*header start*/
+header{
+	background-color: #fcdb00;
+	position: sticky;
+	top: 0;
+}
+.logo{}
+.menu{}
+.menu ul li a{
+	font-family:'Dosis', sans-serif;
+	font-weight:700;
+	font-size:18px;
+	color:#ffffff !important;
+	transition:.3s;
+	border-radius:20px;
+	padding:0 20px !important;
+}
+.menu ul li a:hover{
+	background-color: #f05c5c;
+}
+.m{
+	background-color: #7CB342 !important;
+	color:black !important;
+	padding:0 !important;
+}
+.ml{
+	margin-left:100px;
+}
+.btn-user,.btn-search{
+	background: transparent;
+	color:#ffffff !important;
+}
+.btn-user:hover,.btn-search:hover{
+	color: #f05c5c !important;
+}
+.btn-user:focus,.btn-search:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(240 92 92);
+}
+.wid{	
+	height:55px;
+	min-width: 17rem;
+	background-color:#9CCC65!important;
+	left:-215px;
+}
+.wid1{	
+	height:38px;
+	min-width: 12rem;
+	background-color:white!important;
+}
+.wid2{	
+	height:30px;
+	min-width: 4rem;
+	background-color:white!important;
+}
+.mle-5{
+	margin-left:5px;	
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../image/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 990px;
+}
+.b_text{
+	margin-top:285px;
+}
+h1{
+	font-family:'Dosis', sans-serif;
+	font-weight:700;
+	font-size:48px;
+	color:#1ec0ff !important;
+}
+.down{
+	margin-top:523px;
+	font-family:'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color:#bbbbbb ;
+}
+/*banner end*/
+
+/*kid1 start*/
+.kid1{}
+.c_title{
+	margin-top:70px;
+}
+.c_h1{
+	font-family:'Dosis', sans-serif;
+	font-size: 30px;
+	font-weight:700 ;
+	color: #333333 !important;
+	margin-top:80px;
+}
+.c_hr{
+	width:250px;
+	margin:20px auto;
+	border:2px dashed white !important;
+	border-top:0;
+	color:white;
+	margin-bottom: 60px;
+}
+.k_text{}
+hr{
+	width:213px;
+}
+.h2{
+	
+	font-family:'Dosis', sans-serif;
+	font-size: 24px;
+	font-weight:700 ;
+	color: #333333 !important;
+}
+.p1{
+	font-family:'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#333333 ;
+}
+.btn_dis{
+	margin-top:20px;
+	height:68px;
+	width:190px;
+}
+.k_img{
+	margin-top:20px;
+}
+.Img1{
+	border-radius:10px;
+}
+.Img1:hover{
+	
+box-shadow: 7px 15px 75px -1px rgba(0,0,0,0.61);
+}
+/*kid1 end*/
+
+/*kid2 start*/
+.kid2{
+	background-image: url(../image/kid2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top:92px;
+	padding-bottom: 100px;
+}
+.pic{
+	width: 50%
+}
+.hh{
+	color:white !important;
+}
+.ho:hover{
+	
+	box-shadow: -1px 0px 44px -2px rgba(228,232,214,1);
+}
+/*kid2 end*/
+
+/*card1 start*/
+.card1{
+	padding-bottom: 30px !important;
+	text-align: center;
+}
+.wet{
+	width:437px;
+}
+.roun{
+	border-radius: 21px !important;	
+}
+.roun:hover{
+	
+	-webkit-box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+	-moz-box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+	box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+}
+.h5{
+	color:#1ec0ff !important;
+}
+.txt{
+	font-family:'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color:#333333 ;
+}
+.yt{}
+.yt1{}
+.bt{
+	margin-bottom:24px !important;
+}
+.bt1{}
+.bs{
+	
+	font-family:'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight:400 ;
+	color: #333333 !important;
+}
+.si{}
+.valu{}
+.vall{}
+.two{}
+.ht{
+	margin-left:50px;
+	margin-top:30px;
+	background-color:#56d47e  !important;
+	text-align: center;
+	height: 45px;
+	width:888px;
+	font-size:20px;
+	color:white !important;
+	border-radius: 10px;
+	transition:.3s;
+}
+.ht:hover{
+	background-color: red !important;
+}
+/*card1 end*/
+
+/*memorable start*/
+.memorable{
+	background-image: url(../image/membg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top:92px;
+	padding-bottom: 100px;
+}
+.rounded:hover{
+	-webkit-box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+	-moz-box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+	box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+}
+.btn_view{
+	margin-top:50px;
+	height:68px;
+	width:190px;
+	margin-left: 156px;
+}
+.btn_view:hover{
+	background-color: red;
+	border-radius: 52px 50px 45px 46px;
+}
+.mm{}
+.mm1{}
+.mm2{}
+.pich{
+	width: 50%;
+}
+.mtt{}
+/*memorable end*/
+
+/*member start*/
+.member{}
+.hove:hover{
+	-webkit-box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+	-moz-box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+	box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+}
+.bl{
+	color:#1ec0ff !important;
+}
+.bgl{
+	color:#1ec0ff !important;
+	font-size: 25px !important;
+	margin:20px 0;
+}
+.mt_30{
+	margin-top:30px;
+}
+.bla{
+	color:black !important;
+}
+.widd{
+	width:80px;
+}
+.vb{}
+/*member end*/
+
+/*what start*/
+.what{
+	background-color: #6e6e6e;
+	padding-bottom: 50px;
+	margin-top:50px;
+}
+.gr{
+	color:#56d47e !important;
+}
+.wh{
+	color:white !important;
+}
+.sz:hover{
+	-webkit-box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+	-moz-box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+	box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+}
+.siz{}
+.ims{}
+/*what end*/
+
+/*news start*/
+.news{
+	margin-top:50px;
+}
+.art{
+	font-family:'Dosis', sans-serif;
+	font-size: 24px;
+	font-weight:700 ;
+	color: #333333 !important;
+}
+.hover:hover{
+	-webkit-box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+	-moz-box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+	box-shadow: 0px 0px 5px 10px rgba(224,218,218,1);
+}
+.news-ctrl{}
+.ct{}
+.md{}
+.md1{}
+.mb-5{
+	margin-bottom:15px;
+}
+/*news end*/
+/*footer start*/
+footer{
+	background-image: url(../image/ftbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top:50px;
+	padding-top:180px;
+	padding-bottom:30px;
+
+}
+.log{}
+.f_text{
+	font-family:'Dosis', sans-serif;
+	font-size: 36px;
+	font-weight:700 ;
+	color: #333333 !important;
+	margin-top:20px;
+}
+.yellow{
+	color:#ffc852 !important;
+}
+.green{
+	color:#56d47e !important;
+}
+.red{
+	color:#f05c5c !important;
+}
+.Menu ul li a{
+	text-decoration: none;
+	color:#333333 !important;
+}
+.frm{
+	margin-top:10px;
+}
+.mk{}
+
+/*footer end*/
+
+/*bottom start*/
+.bottom{
+	background-color: #ffd338 !important;
+	padding-top:15px;
+}
+.mmenu ul li a {
+    text-decoration: none;
+    color: #F05C5C;
+    font-size: 18px;
+    font-weight: 600;
+}
+.mmenu ul li a:hover {   
+    color: #1EC0FF;
+}
+.lk{
+	margin-left:530px;
+}
+.m_social_icon{
+	margin-top:5px;
+}
+/*bottom end*/
